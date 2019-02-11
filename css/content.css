@@ -1,0 +1,70 @@
+.sort-active-element {
+  color: #df691a !important;
+  border-bottom: 2px solid #df691a !important;
+}
+
+.content {
+  background-color: #2f4051;
+  z-index: 1;
+}
+
+.content__sort-ul {
+  display: flex;
+}
+
+.content__sort-type {
+  color: #fff;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  padding: 14px;
+}
+
+.content__sort-by {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.content__title {
+  font-size: 22px;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  margin: 24px 0;
+  margin-left: 32px;
+  color: #fff;
+}
+
+.content__films {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content__page-arrow {
+  background-image: url("../img/arrow.svg");
+  background-color: #2f4051;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: 0;
+  height: 24px;
+  width: 24px;
+  align-self: center;
+}
+
+.content__pages {
+  display: flex;
+}
+
+.content__page-number {
+  text-decoration: none;
+  color: #fff;
+  padding: 8px 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.content__info {
+  color: #fff;
+  margin: 14px 0;
+  padding: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}

@@ -1,0 +1,41 @@
+.film-card {
+  margin: 10px;
+  background-color: #4e5d6c;
+  box-shadow: 0 2px 4px #141323;
+  height: 320px;
+  width: 210px;
+  display: flex;
+  flex-direction: column;
+}
+
+.film-card__image {
+  height: 240px;
+  width: 100%;
+}
+
+.film-card__name {
+  text-decoration: none;
+  color: #fff;
+  padding: 7px 10px 0 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.film-card__mark {
+  display: flex;
+}
+
+.film-card__bottom-ref {
+  display: flex;
+  margin-top: 20px;
+}
+
+.film-card__star {
+  background-image: url("../img/star.svg");
+  fill: #df691a;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: 0;
+  height: 28px;
+  width: 28px;
+  align-self: center;
+}

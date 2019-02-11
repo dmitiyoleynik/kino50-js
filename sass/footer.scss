@@ -1,0 +1,24 @@
+@mixin refStyle() {
+  color: #d3d3d3;
+  text-decoration: none;
+}
+
+.footer {
+  padding: 32px 40px;
+  background-color: #424242;
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+  &__contacts {
+    @include refStyle();
+  }
+  &__rus {
+    @include refStyle();
+    grid-column-start: -3;
+    grid-column-end: -3;
+  }
+  &__ua {
+    @include refStyle();
+    grid-column-start: -2;
+    grid-column-end: -2;
+  }
+}
